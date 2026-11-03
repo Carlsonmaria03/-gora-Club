@@ -120,12 +120,12 @@ export default function ElClub() {
             </p>
           </div>
           <img
-            src="/imagenes/organigrama-agora.png"
+            src="/imagenes/organigrama-agora.svg"
             alt="Organigrama: Dirección General CEO, Dirección Operativa COO y seis áreas: Administración y Finanzas, Operaciones y Servicios, Comercial y Marketing, Gastronomía y Experiencia, Recursos Humanos y Comunidad y Eventos"
           />
           <a
             className="enlace-texto"
-            href="/imagenes/organigrama-agora.png"
+            href="/imagenes/organigrama-agora.svg"
             target="_blank"
             rel="noreferrer"
           >

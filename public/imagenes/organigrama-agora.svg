@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="800" viewBox="0 0 1320 800" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Organigrama de Ágora Club</title>
+  <desc id="descripcion">La Dirección General, CEO, supervisa a la Dirección Operativa, COO. De la Dirección Operativa dependen seis áreas: Administración y Finanzas; Operaciones y Servicios; Comercial y Marketing; Gastronomía y Experiencia; Recursos Humanos; y Comunidad y Eventos.</desc>
+  <defs>
+    <marker id="flecha" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 8 5 1 9" fill="none" stroke="#2f6b4f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <symbol id="persona" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4" fill="currentColor"/><path d="M4 22v-4a8 8 0 0 1 16 0v4Z" fill="currentColor"/></symbol>
+    <symbol id="calculadora" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M8 6h8M8 10h1m3 0h1m3 0h.1M8 14h1m3 0h1m3 0h.1M8 18h1m3 0h1m3 0h.1"/></g></symbol>
+    <symbol id="engranaje" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2.4"/><path d="M12 1v4m0 14v4M1 12h4m14 0h4M4.2 4.2 7 7m10 10 2.8 2.8M4.2 19.8 7 17M17 7l2.8-2.8"/></g></symbol>
+    <symbol id="megafono" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M3 9h5l12-5v16L8 15H3Zm5 6 2 7h4l-3-6M8 9v6"/></g></symbol>
+    <symbol id="cubiertos" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v6a4 4 0 0 0 8 0V2M7 2v20M17 22V2c-5 4-5 12 0 12h3M20 2v20"/></g></symbol>
+    <symbol id="equipo" viewBox="0 0 24 24"><g fill="currentColor"><circle cx="12" cy="7" r="3.3"/><circle cx="4.5" cy="8.5" r="2.4"/><circle cx="19.5" cy="8.5" r="2.4"/><path d="M6.5 22v-5.5a5.5 5.5 0 0 1 11 0V22ZM0 21v-5a4.5 4.5 0 0 1 5-4.5A7.5 7.5 0 0 0 4.5 17v4Zm24 0h-4.5v-4a7.5 7.5 0 0 0-.5-5.5 4.5 4.5 0 0 1 5 4.5Z"/></g></symbol>
+    <symbol id="comunidad" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="5" r="2.2"/><circle cx="4" cy="8" r="1.8"/><circle cx="20" cy="8" r="1.8"/><path d="M7 10c3 3 7 3 10 0M12 12v10M3 12l1 3v7m17-10-1 3v7M1 11l3 4 4-2m15-2-3 4-4-2"/></g></symbol>
+  </defs>
+  <rect width="1320" height="800" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+  <g fill="none" stroke="#2f6b4f" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M660 105V143" marker-end="url(#flecha)"/>
+    <path d="M660 228V274M120 274H1200"/>
+    <path d="M120 274V316M120 484V526"/>
+    <path d="M336 274V316M336 484V526"/>
+    <path d="M552 274V316M552 484V526"/>
+    <path d="M768 274V316M768 484V526"/>
+    <path d="M984 274V316M984 484V526"/>
+    <path d="M1200 274V316M1200 484V526"/>
+  </g>
+  <g>
+    <rect x="410" y="24" width="500" height="80" rx="20" fill="#153420" stroke="#a98842" stroke-width="2"/>
+    <circle cx="455" cy="64" r="28" fill="#e2f0d9"/>
+    <use href="#persona" x="440" y="48" width="30" height="32" color="#153420"/>
+    <path d="M497 40V88" stroke="#b8cda8" stroke-width="1"/>
+    <text x="701" y="73" fill="#faf9f4" font-size="23" font-weight="700" text-anchor="middle">DIRECCIÓN GENERAL / CEO</text>
+  </g>
+  <g>
+    <rect x="410" y="148" width="500" height="80" rx="20" fill="#153420" stroke="#a98842" stroke-width="2"/>
+    <circle cx="455" cy="188" r="28" fill="#e2f0d9"/>
+    <use href="#persona" x="440" y="172" width="30" height="32" color="#153420"/>
+    <path d="M497 164V212" stroke="#b8cda8" stroke-width="1"/>
+    <text x="701" y="197" fill="#faf9f4" font-size="23" font-weight="700" text-anchor="middle">DIRECCIÓN OPERATIVA / COO</text>
+  </g>
+  <g>
+    <rect x="24" y="316" width="192" height="168" rx="12" fill="#e2f0d9" stroke="#2f6b4f" stroke-width="2"/>
+    <circle cx="120" cy="363" r="27" fill="#2f6b4f"/>
+    <use href="#calculadora" x="103" y="346" width="34" height="34" color="#faf9f4"/>
+    <rect x="31" y="403" width="178" height="73" rx="8" fill="#153420"/>
+    <text x="120" y="432" fill="#faf9f4" font-size="18" font-weight="700" text-anchor="middle">Administración</text>
+    <text x="120" y="456" fill="#faf9f4" font-size="18" font-weight="700" text-anchor="middle">y Finanzas</text>
+    <rect x="24" y="526" width="192" height="230" rx="12" fill="#faf9f4" stroke="#2f6b4f" stroke-width="1.5"/>
+    <circle cx="43" cy="558" r="3" fill="#2f6b4f"/>
+    <text x="56" y="563" fill="#153420" font-size="16.5">Facturación</text>
+    <circle cx="43" cy="594" r="3" fill="#2f6b4f"/>
+    <text x="56" y="599" fill="#153420" font-size="16.5">Tesorería</text>
+    <circle cx="43" cy="630" r="3" fill="#2f6b4f"/>
+    <text x="56" y="635" fill="#153420" font-size="16.5">Presupuesto</text>
+  </g>
+  <g>
+    <rect x="240" y="316" width="192" height="168" rx="12" fill="#e2f0d9" stroke="#2f6b4f" stroke-width="2"/>
+    <circle cx="336" cy="363" r="27" fill="#2f6b4f"/>
+    <use href="#engranaje" x="319" y="346" width="34" height="34" color="#faf9f4"/>
+    <rect x="247" y="403" width="178" height="73" rx="8" fill="#153420"/>
+    <text x="336" y="432" fill="#faf9f4" font-size="18" font-weight="700" text-anchor="middle">Operaciones</text>
+    <text x="336" y="456" fill="#faf9f4" font-size="18" font-weight="700" text-anchor="middle">y Servicios</text>
+    <rect x="240" y="526" width="192" height="230" rx="12" fill="#faf9f4" stroke="#2f6b4f" stroke-width="1.5"/>
+    <circle cx="259" cy="558" r="3" fill="#2f6b4f"/>
+    <text x="272" y="563" fill="#153420" font-size="16.5">Canchas y</text>
+    <text x="272" y="585" fill="#153420" font-size="16.5">reservas</text>
+    <circle cx="259" cy="616" r="3" fill="#2f6b4f"/>
+    <text x="272" y="621" fill="#153420" font-size="16.5">Mantenimiento</text>
+    <circle cx="259" cy="652" r="3" fill="#2f6b4f"/>
+    <text x="272" y="657" fill="#153420" font-size="16.5">Seguridad e</text>
+    <text x="272" y="679" fill="#153420" font-size="16.5">higiene</text>
+  </g>
+  <g>
+    <rect x="456" y="316" width="192" height="168" rx="12" fill="#e2f0d9" stroke="#2f6b4f" stroke-width="2"/>
+    <circle cx="552" cy="363" r="27" fill="#2f6b4f"/>
+    <use href="#megafono" x="535" y="346" width="34" height="34" color="#faf9f4"/>
+    <rect x="463" y="403" width="178" height="73" rx="8" fill="#153420"/>
+    <text x="552" y="432" fill="#faf9f4" font-size="18" font-weight="700" text-anchor="middle">Comercial</text>
+    <text x="552" y="456" fill="#faf9f4" font-size="18" font-weight="700" text-anchor="middle">y Marketing</text>
+    <rect x="456" y="526" width="192" height="230" rx="12" fill="#faf9f4" stroke="#2f6b4f" stroke-width="1.5"/>
+    <circle cx="475" cy="558" r="3" fill="#2f6b4f"/>
+    <text x="488" y="563" fill="#153420" font-size="16.5">Ventas y</text>
+    <text x="488" y="585" fill="#153420" font-size="16.5">membresías</text>
+    <circle cx="475" cy="616" r="3" fill="#2f6b4f"/>
+    <text x="488" y="621" fill="#153420" font-size="16.5">Comunicación</text>
+    <circle cx="475" cy="652" r="3" fill="#2f6b4f"/>
+    <text x="488" y="657" fill="#153420" font-size="16.5">Alianzas</text>
+  </g>
+  <g>
+    <rect x="672" y="316" width="192" height="168" rx="12" fill="#e2f0d9" stroke="#2f6b4f" stroke-width="2"/>
+    <circle cx="768" cy="363" r="27" fill="#2f6b4f"/>
+    <use href="#cubiertos" x="751" y="346" width="34" height="34" color="#faf9f4"/>
+    <rect x="679" y="403" width="178" height="73" rx="8" fill="#153420"/>
+    <text x="768" y="432" fill="#faf9f4" font-size="18" font-weight="700" text-anchor="middle">Gastronomía</text>
+    <text x="768" y="456" fill="#faf9f4" font-size="18" font-weight="700" text-anchor="middle">y Experiencia</text>
+    <rect x="672" y="526" width="192" height="230" rx="12" fill="#faf9f4" stroke="#2f6b4f" stroke-width="1.5"/>
+    <circle cx="691" cy="558" r="3" fill="#2f6b4f"/>
+    <text x="704" y="563" fill="#153420" font-size="16.5">Bar y cocina</text>
+    <circle cx="691" cy="594" r="3" fill="#2f6b4f"/>
+    <text x="704" y="599" fill="#153420" font-size="16.5">Atención al</text>
+    <text x="704" y="621" fill="#153420" font-size="16.5">cliente</text>
+    <circle cx="691" cy="652" r="3" fill="#2f6b4f"/>
+    <text x="704" y="657" fill="#153420" font-size="16.5">Eventos</text>
+    <text x="704" y="679" fill="#153420" font-size="16.5">gastronómicos</text>
+  </g>
+  <g>
+    <rect x="888" y="316" width="192" height="168" rx="12" fill="#e2f0d9" stroke="#2f6b4f" stroke-width="2"/>
+    <circle cx="984" cy="363" r="27" fill="#2f6b4f"/>
+    <use href="#equipo" x="967" y="346" width="34" height="34" color="#faf9f4"/>
+    <rect x="895" y="403" width="178" height="73" rx="8" fill="#153420"/>
+    <text x="984" y="432" fill="#faf9f4" font-size="18" font-weight="700" text-anchor="middle">Recursos</text>
+    <text x="984" y="456" fill="#faf9f4" font-size="18" font-weight="700" text-anchor="middle">Humanos</text>
+    <rect x="888" y="526" width="192" height="230" rx="12" fill="#faf9f4" stroke="#2f6b4f" stroke-width="1.5"/>
+    <circle cx="907" cy="558" r="3" fill="#2f6b4f"/>
+    <text x="920" y="563" fill="#153420" font-size="16.5">Cultura y Clima</text>
+    <circle cx="907" cy="594" r="3" fill="#2f6b4f"/>
+    <text x="920" y="599" fill="#153420" font-size="16.5">Atracción y Talento</text>
+    <circle cx="907" cy="630" r="3" fill="#2f6b4f"/>
+    <text x="920" y="635" fill="#153420" font-size="16.5">Compensaciones</text>
+    <circle cx="907" cy="666" r="3" fill="#2f6b4f"/>
+    <text x="920" y="671" fill="#153420" font-size="16.5">Capacitación</text>
+  </g>
+  <g>
+    <rect x="1104" y="316" width="192" height="168" rx="12" fill="#e2f0d9" stroke="#2f6b4f" stroke-width="2"/>
+    <circle cx="1200" cy="363" r="27" fill="#2f6b4f"/>
+    <use href="#comunidad" x="1183" y="346" width="34" height="34" color="#faf9f4"/>
+    <rect x="1111" y="403" width="178" height="73" rx="8" fill="#153420"/>
+    <text x="1200" y="432" fill="#faf9f4" font-size="18" font-weight="700" text-anchor="middle">Comunidad</text>
+    <text x="1200" y="456" fill="#faf9f4" font-size="18" font-weight="700" text-anchor="middle">y Eventos</text>
+    <rect x="1104" y="526" width="192" height="230" rx="12" fill="#faf9f4" stroke="#2f6b4f" stroke-width="1.5"/>
+    <circle cx="1123" cy="558" r="3" fill="#2f6b4f"/>
+    <text x="1136" y="563" fill="#153420" font-size="16.5">Actividades</text>
+    <circle cx="1123" cy="594" r="3" fill="#2f6b4f"/>
+    <text x="1136" y="599" fill="#153420" font-size="16.5">Eventos</text>
+    <circle cx="1123" cy="630" r="3" fill="#2f6b4f"/>
+    <text x="1136" y="635" fill="#153420" font-size="16.5">Fidelización</text>
+  </g>
+  <text x="660" y="785" text-anchor="middle" fill="#526451" font-size="11" letter-spacing="1">ÁGORA CLUB · ESTRUCTURA ORGANIZACIONAL</text>
+  </g>
+</svg>
