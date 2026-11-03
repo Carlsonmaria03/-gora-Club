@@ -526,6 +526,10 @@ td select {
   letter-spacing: 1px;
 }
 
+.navbar-boton {
+  display: none;
+}
+
 .navbar-enlaces {
   display: flex;
   align-items: center;
@@ -1717,6 +1721,80 @@ El footer actual se define en components/Footer.css. */
 }
 
 @media (max-width: 850px) {
+  body {
+    min-width: 0;
+  }
+
+  .cabecera-contenido {
+    justify-content: space-between;
+    gap: 0;
+    padding: 12px 20px;
+  }
+
+  .marca {
+    min-width: 0;
+    flex-shrink: 1;
+  }
+
+  .navbar-boton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    min-height: 44px;
+    padding: 9px 11px;
+    flex-shrink: 0;
+    border: 1px solid var(--linea);
+    border-radius: 6px;
+    background: var(--crema);
+    color: var(--bosque);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .navbar-boton:hover,
+  .navbar-boton[aria-expanded="true"] {
+    background: var(--menta);
+    border-color: #bacaaf;
+  }
+
+  .navbar-boton svg {
+    width: 22px;
+    height: 22px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+  }
+
+  .navbar-enlaces {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 4px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--linea);
+    max-height: calc(100dvh - 90px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .navbar-enlaces.abierto {
+    display: flex;
+  }
+
+  .navbar-enlaces a {
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 44px;
+    padding: 12px 14px;
+    font-size: 14px;
+    white-space: normal;
+  }
+
   .pagina {
     width: calc(100% - 40px);
     padding-top: 26px;
@@ -1944,12 +2022,6 @@ El footer actual se define en components/Footer.css. */
     font-size: 14px;
   }
 
-  .cabecera-contenido {
-    padding: 12px 20px 8px;
-    justify-content: flex-start;
-    gap: 12px;
-  }
-
   .marca img {
     width: 43px;
     height: 43px;
@@ -1961,18 +2033,6 @@ El footer actual se define en components/Footer.css. */
 
   .marca-texto small {
     font-size: 7px;
-  }
-
-  .navbar-enlaces {
-    overflow-x: auto;
-    justify-content: flex-start;
-    padding-bottom: 5px;
-    gap: 4px;
-  }
-
-  .navbar-enlaces a {
-    font-size: 11px;
-    padding: 9px 12px;
   }
 
   .pagina {
@@ -2390,6 +2450,15 @@ El footer actual se define en components/Footer.css. */
 }
 
 @media (max-width: 380px) {
+  .navbar-boton {
+    width: 44px;
+    padding: 10px;
+  }
+
+  .navbar-boton > span {
+    display: none;
+  }
+
   .valores-grilla {
     grid-template-columns: 1fr;
   }
